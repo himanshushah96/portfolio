@@ -14,7 +14,6 @@ const AboutMe = () => {
                     <h1 className="about-heading">About me</h1>
                     <p>
                         Hello! I am Himanshu. 
-
                         Hello! I am Himanshu.   
 
                     </p>
