@@ -8,18 +8,23 @@ const Education = () => {
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-6">
                         <div className="box">
-                            <h3>AEC Graduate Certficate from Cegep de la gaspesie et des Iles (Jan 2019 - July 2020)</h3>
+                            <h3>Graduate Certificate(AEC)</h3>
                             <p>
-                                Located in Montreal
+                                <b>Mobile Application Development <br/></b>
+                                Cegep de la gaspesie et des Iles, Monteal <br/>
+                                January 2019 - July 2020
                             </p>
                         </div>
                     </div>
                     {/********-- */}
                     <div className="col-lg-6 col-md-6 col-sm-6">
                         <div className="box">
-                            <h3>Bachelor's in Engineering from Gujarat Technological University (June 2014 - June 2018 )</h3>
+                            <h3>Bachelor's in Engineering</h3>
                             <p>
-                                Located in India
+                                <b>Information technology<br/></b>
+                                Gujarat Technological University, India <br/>
+                                June 2014 - June 2018
+                                
 
                             </p>
                         </div>

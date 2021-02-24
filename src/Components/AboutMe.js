@@ -1,5 +1,5 @@
 import React from "react";
-import author from "../me.png";
+import author from "../me.jpg";
 
 const AboutMe = () => {
     return(
@@ -13,8 +13,12 @@ const AboutMe = () => {
                 <div className="col-lg-6  col-xm-12">
                     <h1 className="about-heading">About me</h1>
                     <p>
-                        Hello! I am Himanshu. 
-                        Hello! I am Himanshu.   
+                    As a software development student, I have learned and worked with different kind of technologies. Currently, looking for a fulltime opportunity as a software developer, with ability to work in Canada on full time basis for any employer.<br/> 
+                    Programming Languages : Java, C# .Net, JavaScript, Angular, HTML/CSS, Node.Js
+                    Database : Microsoft SQL Server, MySQL
+                    FrameWork : REST API, MVC, React.
+                    Tools : Android Studio, Visual Studio, Netbeans IDE, IntelliJ IDEA, Git
+                    Software Development Methodologies: Agile Software Development, Object Oriented Programming   
 
                     </p>
                 </div>
