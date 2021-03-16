@@ -1,6 +1,7 @@
 import React from "react";
 import restromation from "../restromation.png";
 import portfolio from "../portfolio.png";
+import netflix from "../netflix.png";
 //Font awesome import
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearchPlus} from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +15,10 @@ const Portfolio = () => {
         const content = (
         <>
         <img className="portfolio-image-popupbox" src={restromation} alt= "Restromation project ... "/>
-        <p>Anrdoid application for easing the working of restaurants.</p>
+        <p className="portfolio-para">Developed and designed android mobile application to reduce the human interaction and to automate and expedite the working 
+            process of a restaurant. Developed Rest-API using ASP.Net web API and entity framework and deployed API on AWS. Successfully 
+            created the authentication and role based authorization system to make API more secure. Designed and implemented database and 
+            stored procedures using Microsoft SQL Server.</p>
         <b>Github:</b><a className="hyper-link" onClick={() => window.open("https://github.com/himanshushah96/Restromation")}>
         https://github.com/himanshushah96/Restromation</a>
         </>
@@ -37,7 +41,7 @@ const Portfolio = () => {
         const content = (
         <>
         <img className="portfolio-image-popupbox" src={portfolio} alt= "Portfolio project ... "/>
-        <p>Portfolio project developed using React.</p>
+        <p>The current project developed using React. Find out more at my github repository.</p>
         <b>Github:</b><a className="hyper-link" onClick={() => window.open("https://github.com/himanshushah96/portfolio")}>
         https://github.com/himanshushah96/portfolio</a>
         </>
@@ -55,6 +59,33 @@ const Portfolio = () => {
 
     }
 
+    //Netflix clone
+
+    const openPopupboxNetflix = () =>{
+        const content = (
+        <>
+        <img className="portfolio-image-popupbox" src={netflix} alt= "Netflix clone project ... "/>
+        <p className="portfolio-para">Tried to build netflix web app screen using reactJs Created using the api from tmdb. Deployed on Firebase</p>
+        <b>Github:</b><a className="hyper-link" onClick={() => window.open("https://github.com/himanshushah96/Netflix-clone")}>
+        https://github.com/himanshushah96/Netflix-clone</a><br/>
+        <b>Deployed at:</b><a className="hyper-link" onClick={() => window.open("https://netflix-clone-3f5a0.web.app/")}>
+        https://netflix-clone-3f5a0.web.app/</a>
+        </>
+        )
+        PopupboxManager.open({content})
+    }
+
+    const popupboxConfigNetflix = {
+        titleBar:{
+            enable:true,
+            text:"Netflix clone project."
+        },
+        fadeIn:true,
+        fadeInSpeed:500
+
+    }
+
+
 
     return (
         <div id="portfolio" className="portfolio-wrapper">
@@ -70,7 +101,14 @@ const Portfolio = () => {
                 {/*--*/}
                 
                 <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
-                    <img className="portfolio-image" src={portfolio} alt="Restaurant Automation..."/>
+                    <img className="portfolio-image" src={portfolio} alt="Portfolio..."/>
+                    <div className="overflow"></div>
+                    <FontAwesomeIcon className="portfolio-icon" icon= {faSearchPlus}/>
+                    </div>
+
+
+                    <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
+                    <img className="portfolio-image" src={netflix} alt="Netflix Clone..."/>
                     <div className="overflow"></div>
                     <FontAwesomeIcon className="portfolio-icon" icon= {faSearchPlus}/>
                     </div>
@@ -79,6 +117,7 @@ const Portfolio = () => {
 
             <PopupboxContainer {...popupboxConfigRestromation}/>
             <PopupboxContainer {...popupboxConfigPortfolio}/>
+            <PopupboxContainer{...popupboxConfigNetflix}/>
         </div>
     )
 }

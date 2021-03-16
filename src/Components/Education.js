@@ -12,7 +12,7 @@ const Education = () => {
                             <p>
                                 <b>Mobile Application Development <br/></b>
                                 Cegep de la gaspesie et des Iles, Monteal <br/>
-                                January 2019 - July 2020
+                                Jan 2019 - Jul 2020
                             </p>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ const Education = () => {
                             <p>
                                 <b>Information technology<br/></b>
                                 Gujarat Technological University, India <br/>
-                                June 2014 - June 2018
+                                Jun 2014 - Jun 2018
                                 
 
                             </p>
