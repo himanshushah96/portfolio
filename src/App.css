@@ -362,6 +362,13 @@ nav ul li {
   text-align: justify;
   text-justify: inter-word;
 }
+.para-headline{
+  text-align: end;
+  color: var(--primary-dark-grey);
+  font-size: 1.2rem;
+}
+
+
 
 .hyper-link {
   cursor: pointer;

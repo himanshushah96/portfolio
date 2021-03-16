@@ -113,6 +113,7 @@ const Portfolio = () => {
                     <FontAwesomeIcon className="portfolio-icon" icon= {faSearchPlus}/>
                     </div>
                 </div>
+                <p className="para-headline">Oh and don't forget to click on the images...</p>
             </div>
 
             <PopupboxContainer {...popupboxConfigRestromation}/>
