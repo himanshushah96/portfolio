@@ -13,13 +13,13 @@ const AboutMe = () => {
                 <div className="col-lg-6  col-xm-12">
                     <h1 className="about-heading">About me</h1>
                     <p className="pabout">
-                    As a software development student, I have learned and worked with different kind of technologies. Currently, 
-                    looking for a fulltime opportunity as a software developer, with ability to work in Canada on full time basis for 
-                    any employer.<br/> 
-                    <b>Programming Languages : </b>Java, C# .Net, JavaScript, Angular, HTML/CSS, Node.Js <br/>
-                    <b>Database : </b>Microsoft SQL Server, MySQL <br/>
-                    <b>FrameWorks and Libraries :</b> REST API, MVC, React.<br/>
-                    <b>Tools </b>: Android Studio, Visual Studio, Netbeans IDE, IntelliJ IDEA, Git, Postman, Visual Studio Code, Microsoft Office <br/>
+                    A highly motivated individual with experience in C# .Net, Java, React, SQL and RESTful Web Services, seeking a challenging 
+                    position in a dynamic firm. A problem solver who adds value to teams through logical thinking, analytical reasoning, 
+                    effective communication and passion to learn new technologies.<br/> 
+                    <b>Programming Languages : </b> C# .Net, Java, JavaScript, HTML/CSS, SQL<br/>
+                    <b>Database : </b>Microsoft SQL Server, MySQL<br/>
+                    <b>FrameWorks and Libraries :</b> REST API, MVC, React, NodeJS<br/>
+                    <b>Tools </b>: AWS, Visual Studio, Android Studio, SQL Server Management Studio, IntelliJ IDEA, Git, Postman, Visual Studio Code <br/>
                     <b>Software Development Methodologies:</b> Agile Software Development, Object Oriented Programming  
                     </p>
                 </div>

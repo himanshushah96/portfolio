@@ -10,12 +10,14 @@ const Experience = () => {
             <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                    <h3>Aug 2020 - Present</h3>
-                    <p><b> </b><br/>
-                    After getting approved for my Post Graduate Work Permit(PGWP) in Canada, I have been continuously looking for a full-time opportunity
-                    in the software development industry. While searching for job, I have kept myself continuously updated with developing small projects 
-                    and learning new day tools and technologies. Learning and completing various course such as AWS Cloud Practitioner, React, Angular. I also
-                    developed various assessments and projects using HTML/CSS, Angular, React, Java, JavaScript.<br/>
+                    <h3>May 2021 - Present</h3>
+                    <p><b>Web Support Analyst, Jonas Club Software - Markham, Ontario.</b><br/>
+                    Resolved client concerns efficiently and expeditiously.<br/>
+                    Worked with Content Management System to manage client sites.<br/>
+                    Reproduced issues in the test environment to log and track bugs using JIRA.<br/>
+                    Diagnosed and processed errors in the database using SQL Server.<br/>
+                    Communicated with internal teams, working to determine solutions for software bugs for a better user experience.<br/>
+                    Utilised the tools such as Visual Studio, Postman, SQL Server, JIRA, Salesforce.<br/>
                     </p>
                     
                     </div>
@@ -23,48 +25,20 @@ const Experience = () => {
             <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                    <h3>Jan 2020 - Jul 2020</h3>
-                    <p><b>Student, AEC Graduate Certificate </b><br/>
-                    Learned various technologies and implemented it as academic projects. Developed several team projects using different technologies
-                    such as Java, C# .Net, Node.Js, SQL, Flutter(Dart) and Android. Implemented the working of scrum models and also carried our project
-                    in terms of sprints and backlogs to get the overview of agile development environment. <br/>
-                    
+                    <h3>Apr 2020 - Jul 2020</h3>
+                    <p><b>Software Developer Intern, Cegep de la gaspesie - Montreal, Quebec </b><br/>
+                    Led a team of four to deliver an Android mobile application to reduce human interaction and to automate and expedite the working process of a restaurant.<br/>
+                    Developed Rest-API using C#, ASP.Net web API and entity framework and posted API on AWS.<br/>
+                    Successfully created the authentication and role based authorization system to make API more secure and implemented database and stored procedures using Microsoft SQL Server.<br/>
+                    Utilized various tools such as Visual Studio, SQL Server, Android Studio, Postman, Justinmind, Slack and Git.<br/>
                     </p>
                     
                     </div>
                 </div>
-                <div className="timeline-block timeline-block-right">
-                    <div className="marker"></div>
-                    <div className="timeline-content">
-                    <h3>Jun 2018 - Dec 2018</h3>
-                    <p><b>Self-employed Software Developer , India </b><br/>
-                    Collaborated with cross-functional team to define, design and deliver an e-commerce android application. Developed Rest-API for 
-                    e-commerce project using ASP.Net web API and entity framework and deployed API on AWS. Integrated the developed Rest-API in 
-                    android application using retrofit. Overcame with the use of git as a version control system and followed agile development 
-                    methodologies.<br/>
-                    Tools: Android Studio, Visual Studio, Git, SQL Server, Postman <br/>
-                    Technologies : Java/Android, C# .Net, Retrofit, Rest-API, SQL, AWS
-                    </p>
-                    
-                    </div>
-                </div>
-                {/* -*/}
+                
+              
 
-                <div className="timeline-block timeline-block-left">
-                    <div className="marker"></div>
-                    <div className="timeline-content">
-                    
-                    <h3>Aug 2017 - Mar 2018</h3>
-                    <p><b>Software Developer Intern @ Webmyne Systems, India</b> <br/>
-                    Implemented the use of object oriented programming and performed multiple tasks to accomplish fluency in all the concepts.
-                    Developed and learned implementation of android application which helps tracking and managing the insurance sales of a company. 
-                    Learned and implemented the use of database. Performed and completed various tasks such as android design, database design 
-                    and android development.<br/>
-                    Tools and technologies used: Java/Android, SQL, Android Studio, Netbeans IDE, MySQL Workbench
-                    
-                    </p>
-                    </div>
-                </div>
+                
             </div>
         </div>
         )
