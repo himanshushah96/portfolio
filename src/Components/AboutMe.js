@@ -18,7 +18,7 @@ const AboutMe = () => {
                     effective communication and passion to learn new technologies.<br/> 
                     <b>Programming Languages : </b> C# .Net, Java, JavaScript, HTML/CSS, SQL<br/>
                     <b>Database : </b>Microsoft SQL Server, MySQL<br/>
-                    <b>FrameWorks and Libraries :</b> REST API, MVC, React, NodeJS<br/>
+                    <b>Frameworks and Libraries :</b> REST API, MVC, React, NodeJS<br/>
                     <b>Tools </b>: AWS, Visual Studio, Android Studio, SQL Server Management Studio, IntelliJ IDEA, Git, Postman, Visual Studio Code <br/>
                     <b>Software Development Methodologies:</b> Agile Software Development, Object Oriented Programming  
                     </p>
